@@ -5,3 +5,10 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+for (let i=0; i <array.length; i++){
+console.log(`Temporadas ${i+1}`)
+console.log(`Jogador ${i+1}: ${array[i]}`)
+}
+
+
